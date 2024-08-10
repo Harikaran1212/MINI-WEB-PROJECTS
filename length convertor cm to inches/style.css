@@ -1,0 +1,45 @@
+body{
+    background-image: linear-gradient(to right,red, black, blue);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#wrapper{
+    border: solid 7px rgb(234, 230, 223);
+    border-radius: 20px;
+    height: 250px;
+    width: 500px;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 550px;
+    background-color:rgba(3, 38, 38, 0.218);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#wrapper h2{
+    color:rgb(131, 13, 234)
+}
+
+#inputdiv:hover{
+    
+    font-weight: bolder ;
+}
+
+#button{
+    margin-top: 20px; 
+    padding: 2px 10px ;
+}
+#button button{
+        border: solid 4px rgb(15, 153, 227);
+        border-radius: 20px;
+        height:40px;
+        width: 200px;
+        background-color: rgb(160, 13, 233);
+}
+
+#result{
+    color: rgb(10, 245, 245);
+    margin-top: 20px;
+}
+#result span{
+    color:antiquewhite;
+}
