@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>heat convertor</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <h2>CELSIUS TO FAHRENHEIT CONVERTOR</h2>
+        <div id="inputdiv">
+            <input type="text" id="input" placeholder="Enter the CELSIUS value">
+        </div>
+        <div id="button">
+            <button type="submit" onclick="convert()">Convert to FAHRENHEIT</button>
+        </div>
+        <div id="result"></div>
+    </div>
+    <script>
+        function convert(){
+
+        let cel = Number(document.getElementById("input").value)
+        let fah = cel*1.8+32
+        let result = document.getElementById("result")
+        result.innerHTML = fah.toFixed(2)+" fahrenheit"
+        }
+
+    </script>
+    
+</body>
+</html>

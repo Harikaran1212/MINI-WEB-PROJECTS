@@ -1,0 +1,37 @@
+body{
+    background-image: linear-gradient( 450deg , black, lightgreen)
+}
+
+#wrapper{
+    border: solid 6px  rgba(135, 207, 235, 0.373);
+    height: 300px;
+    width: 350px;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 600px;
+    background-color: rgba(243, 238, 238, 0.484);
+    color: black;
+    border-radius: 60px;
+}
+
+#inputdiv input{
+    margin-top: 40px;
+    height: 20px;
+    border: 3px double skyblue;
+    text-align: center;
+    color: rgb(228, 30, 15);
+    font-weight: bolder;
+}
+
+#button button{
+    margin-top: 40px;
+    height: 40px;
+    border: 5px solid rgb(5, 213, 255);
+    border-radius: 20px;
+    color: black;
+}
+
+#result{
+    margin-top: 20px;
+    color:white;
+}
